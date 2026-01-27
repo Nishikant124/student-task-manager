@@ -56,17 +56,13 @@ The hardest bug I encountered was the **"JSON Decode Error"**.
 
 ---
 
-### 4. Output Screenshots
+## 4. Output Screenshots
 
-**1. Landing Page (Clean UI)**
-![Place screenshot of the empty homepage here]
+### Backend Running (Flask Server)
+![Backend Running](screenshots/backend_running.png)
 
-**2. Adding Tasks (No Page Refresh)**
-![Place screenshot of the list populated with tasks here]
-
-**3. Data Persistence (Evidence)**
-![Place screenshot of tasks.json file open in VS Code showing data here]
-
+### Student Task Manager UI
+![Task Manager UI](screenshots/tasks_ui.png)
 ---
 
 ### 5. Future Improvements
