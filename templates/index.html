@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager</title>
+    <style>
+        /* Simple Styling to make it look decent */
+        body {
+            font-family: sans-serif;
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background: linear-gradient(135deg, #e0f7fa, #f1f8ff);
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #ffffff;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #28a745, #5cd65c);
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background: linear-gradient(135deg, #218838, #4ec44e);
+            transform: scale(1.05);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #ffffff;
+            margin: 5px 0;
+            padding: 10px;
+            border-left: 5px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Task Manager</h1>
+
+    <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Enter a new task...">
+        <button id="addBtn">Add Task</button>
+    </div>
+
+    <ul id="taskList">
+        </ul>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

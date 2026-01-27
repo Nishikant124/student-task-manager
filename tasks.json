@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "text": "Complete the backend setup",
+        "completed": false
+    },
+    
+    {
+        "id": 3,
+        "text": "Submit the project on time",
+        "completed": false
+    },
+    {
+        "id": 5,
+        "text": "zimetrics round 2 test",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "text": "zimetrics Technologies round 1",
+        "completed": false
+    }
+]
